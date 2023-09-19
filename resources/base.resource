@@ -32,6 +32,8 @@ Start session
     ...       platformVersion=16.4
     ...       bundleId=com.qaxperience.markx
 
+    Hide Keyboard
+
     Wait Until Page Contains    Endereço IP da Api    10
 
 Finish session
