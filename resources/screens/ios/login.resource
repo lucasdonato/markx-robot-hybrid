@@ -4,15 +4,10 @@ Documentation            Elementos e ações da tela de login
 Library       AppiumLibrary
 
 *** Variables ***
-${API_IP}         192.168.68.101
+${API_IP}         192.168.68.112
 
 
 *** Keywords ***
 Do login
-    
-    ${element}        Set Variable    accessibility_id=apiIp
-    
-    Click Element    ${element}
-    Input Text       ${element}       ${API_IP}
-
+    Input Text       accessibility_id=apiIp       ${API_IP}
     Click Element    accessibility_id=signInButton

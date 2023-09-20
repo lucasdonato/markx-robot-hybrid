@@ -8,7 +8,6 @@ Test Teardown    Finish session
 
 *** Test Cases ***
 Deve poder cadastrar uma nova tarefa
-    [Tags]    happy
 
     ${task}        Set Variable        Estudar Python
     Remove task from database    ${task}
