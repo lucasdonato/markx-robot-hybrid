@@ -43,9 +43,6 @@ Finish task
 Task should be done
     [Arguments]        ${task_name}
 
-    Wait Until Element Is Visible       xpath=//*[@label="${task_name}"]/..
+    Wait Until Element Is Visible       xpath=//*[@text="${task_name}"]/..//android.widget.ImageView
 
-    # Get Webelement    xpath=//*[@label="${task_name}"]/..
-
-    Get Element Attribute       //*[@name="updateTask"][@label="${task_name}"]        checked
     
