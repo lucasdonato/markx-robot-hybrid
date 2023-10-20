@@ -1,7 +1,7 @@
 {
   "name": "markx-robot",
   "version": "1.0.0",
-  "description": "Projeto node apenas para que tenhamos o sevidor do appium local",
+  "description": "Testes Mobile Hibrido - Robot Framework e Appium",
   "main": "index.js",
   "directories": {
     "test": "tests"
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Fernando Papito",
+  "author": "Lucas Donato",
   "license": "ISC",
   "dependencies": {
     "appium": "^2.1.3",
