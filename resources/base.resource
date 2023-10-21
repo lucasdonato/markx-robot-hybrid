@@ -26,7 +26,7 @@ Start session
     ...       automationName=XCUITest
     ...       platformName=iOS
     ...       deviceName=iPhone 14 Pro
-    ...       udid=6BCD0847-4AA2-42BB-B614-E1EFB2A465C8
+    ...       udid=37F41A05-8D94-4599-B08F-FF9AF51E8677
     ...       autoAcceptedAlerts=true
     ...       app=${EXECDIR}/apps/markX.app
     ...       platformVersion=16.4
